@@ -33,7 +33,7 @@ export default async function Page() {
             <p className="text-sm leading-6 text-gray-300">
               Take this quiz to find out how much you know about the hit
               animated sitcom Family Guy. Test your knowledge of the characters,
-              the episodes, and the show&apos;s many pop culture references.
+              the episodes, and the shows many pop culture references.
             </p>
             <Link
               href={`/quiz/${data.randomQuestion}`}
