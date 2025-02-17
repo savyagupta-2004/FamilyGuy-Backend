@@ -1,5 +1,4 @@
 'use client'
-
 import { Container } from '@/components'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -11,7 +10,6 @@ export default function Page() {
   const [data, setData] = useState(null)
   const [visible, setVisible] = useState(false)
   const characterSectionRef = useRef(null)
-
   useEffect(() => {
     getAllCharacters().then(setData)
     setTimeout(() => setVisible(true), 500)
@@ -20,7 +18,6 @@ export default function Page() {
   const scrollToCharacters = () => {
     characterSectionRef.current?.scrollIntoView({ behavior: 'smooth' })
   }
-
   return (
     <main className="flex flex-col items-center py-10 bg-black min-h-screen">
       <>
@@ -141,7 +138,7 @@ export default function Page() {
 
         <section ref={characterSectionRef} className="w-full">
           <h1 className="text-center font-extrabold text-4xl">
-            Who's Your Favorite
+            Who&apos;s Your Favorite
             <span className="text-cyan-400"> Character?</span>
           </h1>
           <Container className="grid grid-cols-2 gap-1 py-5 md:grid-cols-3 lg:grid-cols-4">
