@@ -4,11 +4,13 @@
       "id": "GKfrCbCN5f",
       "title": "What is the name of the Griffin family dog?",
       "answers": ["Brian", "Stewie", "Meg", "Chris"],
+      "hints": "This dog is known for his talking abilities and sarcastic remarks.",
       "correct_answer": "Brian"
     },
     {
       "id": "cQC0Y2Dmhu",
       "title": "What is the name of Lois Griffin's father?",
+      "hints": "He is a wealthy businessman and often clashes with Peter.",
       "answers": [
         "Carter Pewterschmidt",
         "Peter Griffin",
@@ -20,12 +22,14 @@
     {
       "id": "DFfAzImRk6",
       "title": "What is the name of the town where the Griffin family lives?",
+      "hints": "It's a fictional Rhode Island town where all the Family Guy characters reside.",
       "answers": ["Quahog", "Springfield", "Simpsons", "Griffinville"],
       "correct_answer": "Quahog"
     },
     {
       "id": "RY9qUoigEA",
       "title": "What is the name of the bar where Peter, Joe, Quagmire, and Cleveland go to?",
+      "hints": "This bar is often seen as the guys' hangout spot.",
       "answers": [
         "The Drunken Clam",
         "The Griffin Tavern",
@@ -37,12 +41,14 @@
     {
       "id": "qsLWiq531a",
       "title": "What is the name of Stewie Griffin's teddy bear?",
+      "hints": "This bear is Stewie's only real friend, and they have a complicated relationship.",
       "answers": ["Rupert", "Winston", "Barney", "Wally"],
       "correct_answer": "Rupert"
     },
     {
       "id": "WbxoPIWfyk",
       "title": "What is the name of the chicken who is Peter Griffin's nemesis?",
+      "hints": "This giant chicken and Peter have a long-running feud, often resulting in epic battles.",
       "answers": [
         "Lois Griffin",
         "Meg Griffin",
@@ -54,6 +60,7 @@
     {
       "id": "MUfeMhv3n8",
       "title": "What is the name of the news anchor on Channel 5?",
+      "hints": "This character is known for his deadpan humor and frequent appearances on the show.",
       "answers": [
         "Tom Tucker",
         "Diane Simmons",
@@ -65,6 +72,7 @@
     {
       "id": "c2Ocp9ZvN2",
       "title": "What is the name of the police officer who is Joe Swanson's partner?",
+      "hints": "This character is a police officer who also often joins the group of friends.",
       "answers": [
         "Brian Griffin",
         "Stewie Griffin",
@@ -76,6 +84,7 @@
     {
       "id": "ypcGVPrhsg",
       "title": "What is the name of the mall that the Griffin family frequently goes to?",
+      "hints": "This mall is a regular backdrop for various antics involving the Griffin family.",
       "answers": [
         "The Quahog Mall",
         "The Springfield Mall",
@@ -87,42 +96,49 @@
     {
       "id": "gC3jrDwEYk",
       "title": "Who does Stewie want to kill?",
+      "hints": "Stewie's primary target is often his mother, Lois, in his quest for world domination.",
       "answers": ["Meg", "Chris", "Peter", "Lois"],
       "correct_answer": "Lois"
     },
     {
       "id": "csOEYs6zXn",
       "title": "Where was Peter born?",
+      "hints": "This country is famously associated with some of Peter's humorous antics and stories.",
       "answers": ["Mexico", "Canada", "United States", "Russia"],
       "correct_answer": "Mexico"
     },
     {
       "id": "cyqZYE8DIK",
       "title": "Which Family Guy character is obsessed with world domination?",
+      "hints": "This character, who is a baby, has constant plans to take over the world.",
       "answers": ["Meg", "Chris", "Stewie", "Brian"],
       "correct_answer": "Stewie"
     },
     {
       "id": "CfQnf3lH56",
       "title": "Who is the mayor of Quahog?",
+      "hints": "This eccentric character is always seen doing strange things as the town's mayor.",
       "answers": ["Bill Bixby", "Adam West", "Lynda Carter", "Burt Ward"],
       "correct_answer": "Adam West"
     },
     {
       "id": "e3dDjEEWl0",
       "title": "Who founded the city of Quahog?",
+      "hints": "The founder is a historical character, and his name often comes up in Family Guy history.",
       "answers": ["Griffin Peterson", "Adam West", "Miles Musket", "A Frog"],
       "correct_answer": "Griffin Peterson"
     },
     {
       "id": "wKuUTrvMrF",
       "title": "What did Peter change Meg's name to on her birth certificate?",
+      "hints": "Peter, in his usual comedic fashion, changed Meg's name to something quite absurd.",
       "answers": ["Megillah", "Megatron", "Megolavina", "Mega Millions"],
       "correct_answer": "Megatron"
     },
     {
       "id": "SlYDds3o7F",
       "title": "Who burned The Drunken Clam to the ground?",
+      "hints": "Peter is the cause of this destruction, causing chaos at his favorite hangout spot.",
       "answers": ["Peter", "Brian", "God", "Stewie"],
       "correct_answer": "Peter"
     }

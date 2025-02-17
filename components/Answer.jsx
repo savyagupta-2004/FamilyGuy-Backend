@@ -16,8 +16,8 @@ import { FiRepeat } from 'react-icons/fi'
 import { MdNearbyError } from 'react-icons/md'
 import { FaCheck } from 'react-icons/fa'
 
-export const Answer = ({ answers, questionId }) => {
-  const [selected, setSeleceted] = useState(null)
+export const Answer = ({ answers, questionId, setScore }) => {
+  const [selected, setSelected] = useState(null)
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(false)
 
@@ -31,15 +31,17 @@ export const Answer = ({ answers, questionId }) => {
           setLoading(false)
           if (subscribed) {
             setData(data)
+            if (data.correct === selected) {
+              setScore(prevScore => prevScore + 1) // Increase score on correct answer
+            }
           }
         })
     }
 
     return () => {
-      console.log('cancelled!')
       subscribed = false
     }
-  }, [questionId, selected])
+  }, [questionId, selected, setScore])
 
   return (
     <>
@@ -54,9 +56,9 @@ export const Answer = ({ answers, questionId }) => {
             <li key={item}>
               <button
                 disabled={data || loading}
-                onClick={() => setSeleceted(item)}
+                onClick={() => setSelected(item)}
                 className={cn(
-                  'p-2 rounded-md  items-center justify-between w-full flex text-sm font-semibold disabled:cursor-not-allowed transition-all',
+                  'p-2 rounded-md items-center justify-between w-full flex text-sm font-semibold disabled:cursor-not-allowed transition-all',
                   isLoading && 'animate-pulse',
                   isWrong ? 'bg-red-700' : 'bg-slate-800',
                   isCorrect && 'outline text-green-500',
