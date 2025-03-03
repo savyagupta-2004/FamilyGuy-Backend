@@ -1,3 +1,2 @@
 // export const endpoint = 'http://localhost:3000/api/'
-export const endpoint =
-  'https://family-guy-backend-exitingbackendurl.vercel.app'
+export const endpoint = 'https://next-fcc-familyguy.vercel.app/api'
